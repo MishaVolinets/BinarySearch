@@ -11,7 +11,6 @@ public class Main {
         array = BinarySearch.sort(array);
         for (int x:
              array) {
-
             System.out.println(i + ". " + x);
             i++;
         }
@@ -19,5 +18,6 @@ public class Main {
         int n = BinarySearch.search(56,array,0,array.length-1);
         if(n != -1) System.out.println(n);
         else System.out.println("ERROR");
+        System.out.println("Hello GitHub, I love YOU! ;)");
     }
 }
